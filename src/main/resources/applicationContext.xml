@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean class="com.example.home0304.Order" id="order" >-->
+<!--        <property name="item" value="pencil"></property>-->
+<!--        <property name="price" value="12"></property>-->
+<!--    </bean>-->
+<!--    <bean class="com.example.home0304.Order" id="order1">-->
+<!--      <constructor-arg name="item" value="pen"></constructor-arg>-->
+<!--        <constructor-arg name="price" value="13"></constructor-arg>-->
+<!--    </bean>-->
+<!--    <bean class="com.example.home0304.Order" id="order2"  lazy-init="true">-->
+<!--        <constructor-arg name="item" value="pen2"></constructor-arg>-->
+<!--        <constructor-arg name="price" value="8"></constructor-arg>-->
+
+<!--    </bean>-->
+<!--    <bean class="com.example.home0304.PaymentGateway" id="gateway">-->
+<!--        <property name="id" value="1"></property>-->
+<!--        <property name="order" ref="order2"></property>-->
+<!--    </bean>-->
+
+</beans>
