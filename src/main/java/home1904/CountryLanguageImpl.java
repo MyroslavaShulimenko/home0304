@@ -11,6 +11,9 @@ public class CountryLanguageImpl implements CountryLanguageDAO<CountryLanguage>{
     private static final String GET_BY_LANGUAGE= "SELECT * FROM countrylanguage WHERE Language = ?";
     private static final String DELETE_CODE = "DELETE FROM countrylanguage where CountryCode = ?";
     private static final String SAVE_LANGUAGE = "INSERT INTO countrylanguage VALUES (?,?,?,?)";
+
+
+
     @Override
     public List<CountryLanguage> getAll() {
         List<CountryLanguage> countryLanguages=new ArrayList<>();
